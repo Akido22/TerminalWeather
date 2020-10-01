@@ -1,4 +1,5 @@
 # WeatherAppPython
+<<<<<<< HEAD
 
 ---
 
@@ -26,3 +27,5 @@ which this project is licensed under.
 ## Credits
 
 Credit list in [CREDITS](CREDITS)
+=======
+>>>>>>> origin/master
