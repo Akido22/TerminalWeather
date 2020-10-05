@@ -1,4 +1,4 @@
-# Console version: 1.2.2909
+# Console version: 1.2.2909 work 
 import pyowm  #PyOWM 2.10
 import WeahAppQT.pyw
 import time # (STL)
