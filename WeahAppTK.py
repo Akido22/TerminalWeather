@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # windows version tkinter 20201001
 import requests
 from tkinter import *
