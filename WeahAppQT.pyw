@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #version PySide2 20201001
 from PySide2.QtCore import (QCoreApplication, QDate, QDateTime, QMetaObject,
                             QObject, QPoint, QRect, QSize, QTime, QUrl, Qt)
