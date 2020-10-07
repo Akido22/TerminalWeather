@@ -1,6 +1,5 @@
 # Console version: 1.2.2909
 import pyowm  #PyOWM 2.10
-import WeahAppQT.pyw
 import time # (STL)
 from colorama import * # colorama
 from datetime import datetime
@@ -47,4 +46,3 @@ print('Направление ветра: ' + azimuth_wind())
 print('Давление: ' + str(round(weather.get_pressure()['press'] * 0.750062)) + ' мм рт. ст.')
 print('Видимость: ' + str(weather.get_visibility_distance()) + ' м.')
 
-WeahAppQT()
