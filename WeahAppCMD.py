@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Console version 20200930
 import pyowm  #PyOWM 2.10
 from colorama import * # colorama
