@@ -1,7 +1,7 @@
 # WeatherAppPython
 ## Instructions
 
-### Create your first bot
+### Create your first 
 
 Python 3.7.5
 
