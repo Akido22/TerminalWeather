@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 #version PySide2 20201001
+# dkpd-python3.5
 from PySide2.QtCore import (QCoreApplication, QDate, QDateTime, QMetaObject,
                             QObject, QPoint, QRect, QSize, QTime, QUrl, Qt)
 from PySide2.QtGui import (QBrush, QColor, QConicalGradient, QCursor, QFont,
