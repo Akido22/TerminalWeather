@@ -12,7 +12,7 @@ def welcome(message):
 	#sti = open('welcome.png', 'rb')
 	#bot.send_sticker(message.chat.id, sti)
 	bot.send_message(message.chat.id, 'Добро пожаловать, ' + str(message.from_user.username) + ',' + '\n' +
-	 'Напиши мне название твоего города а я тебе информацию о погоде в твоем городе!')
+	 'Введите название вашего города, для того чтобы узнать погоду!')
 
 
 @bot.message_handler(content_types=['text'])
