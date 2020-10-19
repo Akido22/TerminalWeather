@@ -1,5 +1,6 @@
 import requests
 import telebot
+from datetime import datetime
 
 url = 'http://api.openweathermap.org/data/2.5/weather'
 api_weather = '932d999dbd95894887b3ed90a9d65cc7'
@@ -23,7 +24,8 @@ def weather_send(message):
 		result = requests.get(url, params=params)
 		weather = result.json()
 
-		bot.send_message(message.chat.id, "В городе " + str(weather["name"]) + " температура " + str(float(weather["main"]['temp'])) + "\n" +
+		bot.send_message(message.chat.id, "По информации на " + str(datetime.now().strftime("%H:%M")) + ', в городе ' + str(weather["name"]) + " температура " + str(float(weather["main"]['temp'])) + "\n" +
+				"Сегодня: Сейчас"
 				"Максимальная температура " + str(float(weather['main']['temp_max'])) + "\n" +
 				"Минимальная температура " + str(float(weather['main']['temp_min'])) + "\n" +
 				"Скорость ветра " + str(float(weather['wind']['speed'])) + "\n" +
