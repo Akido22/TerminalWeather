@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Console version 20200930
+# Console version TWeather v: 1.1a
 import pyowm  #PyOWM 2.10
 from colorama import * # colorama
 from datetime import datetime

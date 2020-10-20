@@ -1,4 +1,4 @@
-# windows version tkinter 20201001
+#windows version tkinter TWeather v: 1.1a
 import tkinter as tk
 import requests
 from PIL import Image, ImageTk

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# windows version tkinter 20201001
+# windows version tkinter TWeather v: 1.1a
 import requests
 from tkinter import *
 from tkinter import messagebox

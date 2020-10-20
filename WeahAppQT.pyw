@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#version PySide2 20201001
+#version PySide2 TWeather v: 1.1a
 # dkpd-python3.5
 from PySide2.QtCore import (QCoreApplication, QDate, QDateTime, QMetaObject,
                             QObject, QPoint, QRect, QSize, QTime, QUrl, Qt)
