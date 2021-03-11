@@ -6,7 +6,7 @@ from datetime import datetime
 
 owm = pyowm.OWM('932d999dbd95894887b3ed90a9d65cc7', language='RU')  #You API key OWM
 
-print('----------------Console version: 1.2.5002----------------------')
+print('----------------Console version: 1.2.6477----------------------')
 print(Fore.LIGHTGREEN_EX + 'Здравствуйте, это программа на Python 3 и библиотеки PyOWM 2.10.\nОна поможет вам узнать погоду в любом городе, который выберите.\nПожалуйста, введите название вашего города.Удачи!\n')
 city = input("Город: ")
 print()
